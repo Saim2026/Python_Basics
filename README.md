@@ -75,7 +75,7 @@ Enter a number: 10 , 10 is not a prime number.
 
 2. Initialize an empty string reversed_text
 
-3. Repeat the following steps for each character char in text (from left to right):
+3. Repeat the following steps for each character char (loop variable) in text (from left to right):
 
 4. Set reversed_text = char + reversed_text (This adds the current character to the front of the reversed string)
 
@@ -103,11 +103,11 @@ If text = "hello":
 
 5th Iteration:	'o'	'olleh'
 
-So the first time the loop runs, char will be the first character of the string.
+So the first time the loop runs, " " will be the first character of the string.
 
 ---------------------
 
-# Task5: Write a Python program to check if a string is a palindrome.
+# Task#5: Write a Python program to check if a string is a palindrome.
 
 ## What is a palindrome?
 
@@ -131,7 +131,7 @@ level , noon , 121 , A man a plan a canal Panama
 6. Compare clean_text with reversed_text, If both are equal:
     - Print "It is a palindrome!"
 
-Else:
+    Else:
     - Print "It is not a palindrome."
 
 7. End
@@ -139,7 +139,81 @@ Else:
 ✅ Example
 
 Input: level
+
 → Reversed: level
+
 → Output: It is a palindrome!
+
+---------------------
+
+# Task#6: Write a Python program to count the number of vowels in a string
+
+## ✅ How it works:
+
+1. Converts the string to lowercase so both A and a are counted the same.
+
+2. Loops through each character and checks if it is a vowel.
+
+3. Increments count whenever a vowel is found.
+
+✅ Example
+
+Input: Hello World
+
+Output: Number of vowels: 3
+
+---------------------
+
+# Task#7: Write a Python program to find the length of a string.
+
+## ✅ How it works:
+1. Read a string from the user and store it in variable text
+
+2. Initialize a counter variable count to 0
+
+3. For each character char in text, repeat:
+    - Increase count by 1
+
+4. After the loop ends, count will store the total number of characters
+
+5. Print the value of count
+
+6. End
+
+✅ Example
+
+Input: hello
+
+Loop runs 5 times → count = 5
+
+Output: Length of the string: 5
+
+---------------------
+
+# Task#8: Write a Python program to find the common characters between two strings.
+
+## ✅ How it works:
+
+1. Read the first string and store it in str1
+
+2. Read the second string and store it in str2
+
+3. Initialize an empty string common to store the common characters
+
+4. For each character char in str1, do:
+    - If char exists in str2 and char is not already in common:
+        - Append char to common
+
+5. After the loop ends, common contains all unique common characters
+
+6. Print common
+
+7. End
+
+✅ Example
+
+Input: str1 = "banana" , str2 = "cabana"
+
+Output: ban
 
 ---------------------
