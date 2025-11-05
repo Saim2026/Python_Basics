@@ -12,11 +12,9 @@
 
 ✅ Examples
 
-Enter a number: 7
-7 is odd.
+Enter a number: 7 , 7 is odd.
 
-Enter a number: 12
-12 is even.
+Enter a number: 12 , 12 is even.
 
 ---------------------
 
@@ -42,8 +40,7 @@ n! = n × (n-1) × (n-2) × ... × 1
 Enter a non-negative integer: 5
 The factorial of 5 is 120
 
-Enter a non-negative integer: 0
-The factorial of 0 is 1
+Enter a non-negative integer: 0 , The factorial of 0 is 1
 
 ---------------------
 
@@ -68,8 +65,7 @@ If loop completes without breaking → prime.
 Enter a number: 7
 7 is a prime number.
 
-Enter a number: 10
-10 is not a prime number.
+Enter a number: 10 , 10 is not a prime number.
 
 ---------------------
 
@@ -93,7 +89,18 @@ Enter a number: 10
 
 ✅ Example
 
-Input: "hello"
-Output: "olleh"
+Input: "hello" , Output: "olleh"
+
+📌 What happens exactly?
+
+If text = "hello":
+
+1st Iteration:	'h'	'h'
+2nd Iteration:	'e'	'eh'
+3rd Iteration:	'l'	'leh'
+4th Iteration:	'l'	'lleh'
+5th Iteration:	'o'	'olleh'
+
+So the first time the loop runs, char will be the first character of the string.
 
 ---------------------
