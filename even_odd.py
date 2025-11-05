@@ -1,3 +1,5 @@
+# This program checks if a number is even or odd.
+
 # Prompt the user to enter a number
 num = int(input("Enter a number: "))
 
