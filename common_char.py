@@ -13,3 +13,5 @@ if common:
     print("Common characters:", common)
 else:
     print("No common characters found.")
+
+#end of program
